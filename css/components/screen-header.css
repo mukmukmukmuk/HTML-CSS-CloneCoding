@@ -9,8 +9,20 @@
     font-size: 32px;
     font-weight: 600;   
 }
+.screen-header__icons{
+    display: flex;
+}
 
 .screen-header__icons span{
     margin-left:25px;
+    display: block;
 }
 
+.screen-header__icons__dot{
+    position: relative;
+}
+.screen-header__icons__dot>.nav__notification2{
+    position: absolute;
+    top:-10px;
+    left:23px;
+}
